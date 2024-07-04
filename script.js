@@ -22,7 +22,7 @@ let score = 0;
 function drawBird() {
     ctx.beginPath();
     ctx.arc(bird.x, bird.y, bird.radius, 0, Math.PI * 2);
-    ctx.fillStyle = '#FFD700';
+    ctx.fillStyle = 'Red';
     ctx.fill();
     ctx.closePath();
 }
