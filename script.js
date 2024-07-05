@@ -6,15 +6,15 @@ const bird = {
     y: canvas.height / 2,
     radius: 20,
     velocity: 0,
-    gravity: .5,
-    jumpStrength: 10,
+    gravity: .25,
+    jumpStrength: 6,
 };
 
 const pipes = [];
 const pipeWidth = 50;
-const pipeGap = 150;
+const pipeGap = 200;
 const pipeDistance = 300;
-const pipeColor = '#FF5733';
+const pipeColor = 'Black';
 
 let isGameOver = false;
 let score = 0;
